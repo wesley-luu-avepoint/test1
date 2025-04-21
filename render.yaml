@@ -4,7 +4,7 @@ services:
   name: nginx:stable-alpine3.20-perl
   runtime: image
   image:
-    url: docker.io/library/nginx:stable-alpine3.20-perl
+    url: docker.io/library/nginx:1.27-alpine3.21-perl
   plan: free
   region: oregon
 version: "1"
